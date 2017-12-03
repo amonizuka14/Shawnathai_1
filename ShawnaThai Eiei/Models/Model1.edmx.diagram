@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d954273d664040c598bbed98482ee31c" Name="Diagram1">
+        <EntityTypeShape EntityType="shawnathaidpuModel.admin_cooperative" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="shawnathaidpuModel.cooperative" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="shawnathaidpuModel.farmer" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="shawnathaidpuModel.history_sell" Width="1.5" PointX="7.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="shawnathaidpuModel.product_rice" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="shawnathaidpuModel.ricetype" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="shawnathaidpuModel.user" Width="1.5" PointX="9.75" PointY="4.875" IsExpanded="true" />
+        <AssociationConnector Association="shawnathaidpuModel.admin_cooperative_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="shawnathaidpuModel.farmer_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="shawnathaidpuModel.product_rice_ibfk_2" ManuallyRouted="false" />
+        <AssociationConnector Association="shawnathaidpuModel.history_sell_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="shawnathaidpuModel.product_rice_ibfk_1" ManuallyRouted="false" />
+        <AssociationConnector Association="shawnathaidpuModel.history_buyeruser" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

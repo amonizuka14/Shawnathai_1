@@ -1,0 +1,49 @@
+﻿@model Tuple<List<ShawnaThai_Eiei.Models.history_sell>>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+@using (Html.BeginForm())
+{
+    <body id="page-top">
+        <!-- Header -->
+        @Html.AntiForgeryToken()
+        <header class="masthead">
+            <div class="container">
+                <div class="intro-text">
+
+                    <h1 align="center">หน้า ประวัติการขาย</h1>
+                    <font color=black>
+                        <table align="center" border="1" wsidth="80%" bgcolor="#FFFFCC" cellspacing="20">
+                            <tr>
+                                <td align="center" width="15%">วันเเละเวลาที่ซื้อ</td>
+                                <td align="center" width="15%">รหัสสินค้า</td>
+
+                            </tr>
+                            @foreach (var a in Model.Item1)
+                            {
+                                <tr>
+                                    <td>@Html.DisplayFor(modelItem => a.Sell_Date)</td>
+                                    <td>@Html.DisplayFor(modelItem => a.ProD_IDSell)</td>
+                                   
+                                </tr>
+                            }
+
+
+                             
+                          
+                        </table>
+
+
+                    </font>
+                </div>
+
+            </div>
+
+        </header>
+
+    </body>
+}
+</html>

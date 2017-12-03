@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="shawnathaidpuModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityType Name="admin_cooperative">
+          <Key>
+            <PropertyRef Name="AD_ID" />
+          </Key>
+          <Property Name="AD_ID" Type="varchar" MaxLength="18" Nullable="false" />
+          <Property Name="AD_Password" Type="varchar" MaxLength="18" Nullable="false" />
+          <Property Name="AD_Name" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="AD_Lastname" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="AD_Tel" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="Coop_Name" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="cooperative">
+          <Key>
+            <PropertyRef Name="Coop_Name" />
+          </Key>
+          <Property Name="Coop_Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Coop_Tel" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="Coop_Latitude" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="Coop_Longitude" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="Coop_A_No" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="Coop_A_Sup" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Coop_A_District" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Coop_A_Province" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityType Name="farmer">
+          <Key>
+            <PropertyRef Name="Farmer_IDCard" />
+          </Key>
+          <Property Name="Farmer_IDCard" Type="varchar" MaxLength="13" Nullable="false" />
+          <Property Name="Farmer_Name" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="Farmer_LastName" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="Farmer_Tel" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="Farmer_A_No" Type="varchar" MaxLength="10" Nullable="false" />
+          <Property Name="Farmer_A_Sup" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Farmer_A_District" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Farmer_A_Province" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Coop_Name" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityType Name="history_buyeruser">
+          <Key>
+            <PropertyRef Name="U_IDCard" />
+            <PropertyRef Name="Sell_NumID" />
+          </Key>
+          <Property Name="U_IDCard" Type="varchar" MaxLength="13" Nullable="false" />
+          <Property Name="Sell_NumID" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="history_sell">
+          <Key>
+            <PropertyRef Name="Sell_NumID" />
+          </Key>
+          <Property Name="Sell_NumID" Type="int" Nullable="false" />
+          <Property Name="Sell_Date" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="ProD_IDSell" Type="int" Nullable="false" />
+          <Property Name="AD_ID" Type="varchar" MaxLength="18" />
+        </EntityType>
+        <EntityType Name="product_rice">
+          <Key>
+            <PropertyRef Name="ProD_IDSell" />
+          </Key>
+          <Property Name="ProD_IDSell" Type="int" Nullable="false" />
+          <Property Name="ProD_Topic" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="ProD_Pic" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="ProD_Moisture" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="ProD_Weight" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="ProD_Price" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="ProD_CertiWeightRice" Type="varchar" MaxLength="255" Nullable="false" />
+          <Property Name="RType_Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Farmer_IDCard" Type="varchar" MaxLength="13" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ricetype">
+          <Key>
+            <PropertyRef Name="RType_Name" />
+          </Key>
+          <Property Name="RType_Name" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="RType_Nape" Type="bit" />
+          <Property Name="RType_Napung" Type="bit" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="U_IDCard" />
+          </Key>
+          <Property Name="U_IDCard" Type="varchar" MaxLength="13" Nullable="false" />
+          <Property Name="U_Password" Type="varchar" MaxLength="18" Nullable="false" />
+          <Property Name="U_Name" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="U_Lastname" Type="varchar" MaxLength="30" Nullable="false" />
+          <Property Name="U_Tel" Type="varchar" MaxLength="10" Nullable="false" />
+        </EntityType>
+        <Association Name="admin_cooperative_ibfk_1">
+          <End Role="cooperative" Type="Self.cooperative" Multiplicity="1" />
+          <End Role="admin_cooperative" Type="Self.admin_cooperative" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cooperative">
+              <PropertyRef Name="Coop_Name" />
+            </Principal>
+            <Dependent Role="admin_cooperative">
+              <PropertyRef Name="Coop_Name" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="farmer_ibfk_1">
+          <End Role="cooperative" Type="Self.cooperative" Multiplicity="1" />
+          <End Role="farmer" Type="Self.farmer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cooperative">
+              <PropertyRef Name="Coop_Name" />
+            </Principal>
+            <Dependent Role="farmer">
+              <PropertyRef Name="Coop_Name" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="history_buyeruser_ibfk_1">
+          <End Role="history_sell" Type="Self.history_sell" Multiplicity="1" />
+          <End Role="history_buyeruser" Type="Self.history_buyeruser" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="history_sell">
+              <PropertyRef Name="Sell_NumID" />
+            </Principal>
+            <Dependent Role="history_buyeruser">
+              <PropertyRef Name="Sell_NumID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="history_buyeruser_ibfk_2">
+          <End Role="user" Type="Self.user" Multiplicity="1" />
+          <End Role="history_buyeruser" Type="Self.history_buyeruser" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="user">
+              <PropertyRef Name="U_IDCard" />
+            </Principal>
+            <Dependent Role="history_buyeruser">
+              <PropertyRef Name="U_IDCard" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="history_sell_ibfk_1">
+          <End Role="product_rice" Type="Self.product_rice" Multiplicity="1" />
+          <End Role="history_sell" Type="Self.history_sell" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product_rice">
+              <PropertyRef Name="ProD_IDSell" />
+            </Principal>
+            <Dependent Role="history_sell">
+              <PropertyRef Name="ProD_IDSell" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="product_rice_ibfk_1">
+          <End Role="ricetype" Type="Self.ricetype" Multiplicity="1" />
+          <End Role="product_rice" Type="Self.product_rice" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ricetype">
+              <PropertyRef Name="RType_Name" />
+            </Principal>
+            <Dependent Role="product_rice">
+              <PropertyRef Name="RType_Name" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="product_rice_ibfk_2">
+          <End Role="farmer" Type="Self.farmer" Multiplicity="1" />
+          <End Role="product_rice" Type="Self.product_rice" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="farmer">
+              <PropertyRef Name="Farmer_IDCard" />
+            </Principal>
+            <Dependent Role="product_rice">
+              <PropertyRef Name="Farmer_IDCard" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="shawnathaidpuModelStoreContainer">
+          <EntitySet Name="admin_cooperative" EntityType="Self.admin_cooperative" Schema="shawnathaidpu" store:Type="Tables" />
+          <EntitySet Name="cooperative" EntityType="Self.cooperative" Schema="shawnathaidpu" store:Type="Tables" />
+          <EntitySet Name="farmer" EntityType="Self.farmer" Schema="shawnathaidpu" store:Type="Tables" />
+          <EntitySet Name="history_buyeruser" EntityType="Self.history_buyeruser" Schema="shawnathaidpu" store:Type="Tables" />
+          <EntitySet Name="history_sell" EntityType="Self.history_sell" Schema="shawnathaidpu" store:Type="Tables" />
+          <EntitySet Name="product_rice" EntityType="Self.product_rice" Schema="shawnathaidpu" store:Type="Tables" />
+          <EntitySet Name="ricetype" EntityType="Self.ricetype" Schema="shawnathaidpu" store:Type="Tables" />
+          <EntitySet Name="user" EntityType="Self.user" Schema="shawnathaidpu" store:Type="Tables" />
+          <AssociationSet Name="admin_cooperative_ibfk_1" Association="Self.admin_cooperative_ibfk_1">
+            <End Role="cooperative" EntitySet="cooperative" />
+            <End Role="admin_cooperative" EntitySet="admin_cooperative" />
+          </AssociationSet>
+          <AssociationSet Name="farmer_ibfk_1" Association="Self.farmer_ibfk_1">
+            <End Role="cooperative" EntitySet="cooperative" />
+            <End Role="farmer" EntitySet="farmer" />
+          </AssociationSet>
+          <AssociationSet Name="history_buyeruser_ibfk_1" Association="Self.history_buyeruser_ibfk_1">
+            <End Role="history_sell" EntitySet="history_sell" />
+            <End Role="history_buyeruser" EntitySet="history_buyeruser" />
+          </AssociationSet>
+          <AssociationSet Name="history_buyeruser_ibfk_2" Association="Self.history_buyeruser_ibfk_2">
+            <End Role="user" EntitySet="user" />
+            <End Role="history_buyeruser" EntitySet="history_buyeruser" />
+          </AssociationSet>
+          <AssociationSet Name="history_sell_ibfk_1" Association="Self.history_sell_ibfk_1">
+            <End Role="product_rice" EntitySet="product_rice" />
+            <End Role="history_sell" EntitySet="history_sell" />
+          </AssociationSet>
+          <AssociationSet Name="product_rice_ibfk_1" Association="Self.product_rice_ibfk_1">
+            <End Role="ricetype" EntitySet="ricetype" />
+            <End Role="product_rice" EntitySet="product_rice" />
+          </AssociationSet>
+          <AssociationSet Name="product_rice_ibfk_2" Association="Self.product_rice_ibfk_2">
+            <End Role="farmer" EntitySet="farmer" />
+            <End Role="product_rice" EntitySet="product_rice" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="shawnathaidpuModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityType Name="admin_cooperative">
+          <Key>
+            <PropertyRef Name="AD_ID" />
+          </Key>
+          <Property Name="AD_ID" Type="String" MaxLength="18" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AD_Password" Type="String" MaxLength="18" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AD_Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AD_Lastname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="AD_Tel" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Coop_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="cooperative" Relationship="Self.admin_cooperative_ibfk_1" FromRole="admin_cooperative" ToRole="cooperative" />
+        </EntityType>
+        <EntityType Name="cooperative">
+          <Key>
+            <PropertyRef Name="Coop_Name" />
+          </Key>
+          <Property Name="Coop_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Coop_Tel" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Coop_Latitude" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Coop_Longitude" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Coop_A_No" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Coop_A_Sup" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Coop_A_District" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Coop_A_Province" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="admin_cooperative" Relationship="Self.admin_cooperative_ibfk_1" FromRole="cooperative" ToRole="admin_cooperative" />
+          <NavigationProperty Name="farmer" Relationship="Self.farmer_ibfk_1" FromRole="cooperative" ToRole="farmer" />
+        </EntityType>
+        <EntityType Name="farmer">
+          <Key>
+            <PropertyRef Name="Farmer_IDCard" />
+          </Key>
+          <Property Name="Farmer_IDCard" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Farmer_Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Farmer_LastName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Farmer_Tel" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Farmer_A_No" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Farmer_A_Sup" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Farmer_A_District" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Farmer_A_Province" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Coop_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="cooperative" Relationship="Self.farmer_ibfk_1" FromRole="farmer" ToRole="cooperative" />
+          <NavigationProperty Name="product_rice" Relationship="Self.product_rice_ibfk_2" FromRole="farmer" ToRole="product_rice" />
+        </EntityType>
+        <EntityType Name="history_sell">
+          <Key>
+            <PropertyRef Name="Sell_NumID" />
+          </Key>
+          <Property Name="Sell_NumID" Type="Int32" Nullable="false" />
+          <Property Name="Sell_Date" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ProD_IDSell" Type="Int32" Nullable="false" />
+          <Property Name="AD_ID" Type="String" MaxLength="18" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="product_rice" Relationship="Self.history_sell_ibfk_1" FromRole="history_sell" ToRole="product_rice" />
+          <NavigationProperty Name="user" Relationship="Self.history_buyeruser" FromRole="history_sell" ToRole="user" />
+        </EntityType>
+        <EntityType Name="product_rice">
+          <Key>
+            <PropertyRef Name="ProD_IDSell" />
+          </Key>
+          <Property Name="ProD_IDSell" Type="Int32" Nullable="false" />
+          <Property Name="ProD_Topic" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ProD_Pic" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ProD_Moisture" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ProD_Weight" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ProD_Price" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ProD_CertiWeightRice" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="RType_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Farmer_IDCard" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="farmer" Relationship="Self.product_rice_ibfk_2" FromRole="product_rice" ToRole="farmer" />
+          <NavigationProperty Name="history_sell" Relationship="Self.history_sell_ibfk_1" FromRole="product_rice" ToRole="history_sell" />
+          <NavigationProperty Name="ricetype" Relationship="Self.product_rice_ibfk_1" FromRole="product_rice" ToRole="ricetype" />
+        </EntityType>
+        <EntityType Name="ricetype">
+          <Key>
+            <PropertyRef Name="RType_Name" />
+          </Key>
+          <Property Name="RType_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="RType_Nape" Type="Boolean" />
+          <Property Name="RType_Napung" Type="Boolean" />
+          <NavigationProperty Name="product_rice" Relationship="Self.product_rice_ibfk_1" FromRole="ricetype" ToRole="product_rice" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="U_IDCard" />
+          </Key>
+          <Property Name="U_IDCard" Type="String" MaxLength="13" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="U_Password" Type="String" MaxLength="18" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="U_Name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="U_Lastname" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="U_Tel" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <NavigationProperty Name="history_sell" Relationship="Self.history_buyeruser" FromRole="user" ToRole="history_sell" />
+        </EntityType>
+        <Association Name="admin_cooperative_ibfk_1">
+          <End Role="cooperative" Type="Self.cooperative" Multiplicity="1" />
+          <End Role="admin_cooperative" Type="Self.admin_cooperative" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cooperative">
+              <PropertyRef Name="Coop_Name" />
+            </Principal>
+            <Dependent Role="admin_cooperative">
+              <PropertyRef Name="Coop_Name" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="farmer_ibfk_1">
+          <End Role="cooperative" Type="Self.cooperative" Multiplicity="1" />
+          <End Role="farmer" Type="Self.farmer" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="cooperative">
+              <PropertyRef Name="Coop_Name" />
+            </Principal>
+            <Dependent Role="farmer">
+              <PropertyRef Name="Coop_Name" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="product_rice_ibfk_2">
+          <End Role="farmer" Type="Self.farmer" Multiplicity="1" />
+          <End Role="product_rice" Type="Self.product_rice" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="farmer">
+              <PropertyRef Name="Farmer_IDCard" />
+            </Principal>
+            <Dependent Role="product_rice">
+              <PropertyRef Name="Farmer_IDCard" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="history_sell_ibfk_1">
+          <End Role="product_rice" Type="Self.product_rice" Multiplicity="1" />
+          <End Role="history_sell" Type="Self.history_sell" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="product_rice">
+              <PropertyRef Name="ProD_IDSell" />
+            </Principal>
+            <Dependent Role="history_sell">
+              <PropertyRef Name="ProD_IDSell" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="product_rice_ibfk_1">
+          <End Role="ricetype" Type="Self.ricetype" Multiplicity="1" />
+          <End Role="product_rice" Type="Self.product_rice" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ricetype">
+              <PropertyRef Name="RType_Name" />
+            </Principal>
+            <Dependent Role="product_rice">
+              <PropertyRef Name="RType_Name" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="history_buyeruser">
+          <End Role="history_sell" Type="Self.history_sell" Multiplicity="*" />
+          <End Role="user" Type="Self.user" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="shawnathaidpuEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="admin_cooperative" EntityType="Self.admin_cooperative" />
+          <EntitySet Name="cooperative" EntityType="Self.cooperative" />
+          <EntitySet Name="farmer" EntityType="Self.farmer" />
+          <EntitySet Name="history_sell" EntityType="Self.history_sell" />
+          <EntitySet Name="product_rice" EntityType="Self.product_rice" />
+          <EntitySet Name="ricetype" EntityType="Self.ricetype" />
+          <EntitySet Name="user" EntityType="Self.user" />
+          <AssociationSet Name="admin_cooperative_ibfk_1" Association="Self.admin_cooperative_ibfk_1">
+            <End Role="cooperative" EntitySet="cooperative" />
+            <End Role="admin_cooperative" EntitySet="admin_cooperative" />
+          </AssociationSet>
+          <AssociationSet Name="farmer_ibfk_1" Association="Self.farmer_ibfk_1">
+            <End Role="cooperative" EntitySet="cooperative" />
+            <End Role="farmer" EntitySet="farmer" />
+          </AssociationSet>
+          <AssociationSet Name="product_rice_ibfk_2" Association="Self.product_rice_ibfk_2">
+            <End Role="farmer" EntitySet="farmer" />
+            <End Role="product_rice" EntitySet="product_rice" />
+          </AssociationSet>
+          <AssociationSet Name="history_sell_ibfk_1" Association="Self.history_sell_ibfk_1">
+            <End Role="product_rice" EntitySet="product_rice" />
+            <End Role="history_sell" EntitySet="history_sell" />
+          </AssociationSet>
+          <AssociationSet Name="product_rice_ibfk_1" Association="Self.product_rice_ibfk_1">
+            <End Role="ricetype" EntitySet="ricetype" />
+            <End Role="product_rice" EntitySet="product_rice" />
+          </AssociationSet>
+          <AssociationSet Name="history_buyeruser" Association="Self.history_buyeruser">
+            <End Role="history_sell" EntitySet="history_sell" />
+            <End Role="user" EntitySet="user" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="shawnathaidpuModelStoreContainer" CdmEntityContainer="shawnathaidpuEntities">
+          <EntitySetMapping Name="admin_cooperative">
+            <EntityTypeMapping TypeName="shawnathaidpuModel.admin_cooperative">
+              <MappingFragment StoreEntitySet="admin_cooperative">
+                <ScalarProperty Name="AD_ID" ColumnName="AD_ID" />
+                <ScalarProperty Name="AD_Password" ColumnName="AD_Password" />
+                <ScalarProperty Name="AD_Name" ColumnName="AD_Name" />
+                <ScalarProperty Name="AD_Lastname" ColumnName="AD_Lastname" />
+                <ScalarProperty Name="AD_Tel" ColumnName="AD_Tel" />
+                <ScalarProperty Name="Coop_Name" ColumnName="Coop_Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="cooperative">
+            <EntityTypeMapping TypeName="shawnathaidpuModel.cooperative">
+              <MappingFragment StoreEntitySet="cooperative">
+                <ScalarProperty Name="Coop_Name" ColumnName="Coop_Name" />
+                <ScalarProperty Name="Coop_Tel" ColumnName="Coop_Tel" />
+                <ScalarProperty Name="Coop_Latitude" ColumnName="Coop_Latitude" />
+                <ScalarProperty Name="Coop_Longitude" ColumnName="Coop_Longitude" />
+                <ScalarProperty Name="Coop_A_No" ColumnName="Coop_A_No" />
+                <ScalarProperty Name="Coop_A_Sup" ColumnName="Coop_A_Sup" />
+                <ScalarProperty Name="Coop_A_District" ColumnName="Coop_A_District" />
+                <ScalarProperty Name="Coop_A_Province" ColumnName="Coop_A_Province" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="farmer">
+            <EntityTypeMapping TypeName="shawnathaidpuModel.farmer">
+              <MappingFragment StoreEntitySet="farmer">
+                <ScalarProperty Name="Farmer_IDCard" ColumnName="Farmer_IDCard" />
+                <ScalarProperty Name="Farmer_Name" ColumnName="Farmer_Name" />
+                <ScalarProperty Name="Farmer_LastName" ColumnName="Farmer_LastName" />
+                <ScalarProperty Name="Farmer_Tel" ColumnName="Farmer_Tel" />
+                <ScalarProperty Name="Farmer_A_No" ColumnName="Farmer_A_No" />
+                <ScalarProperty Name="Farmer_A_Sup" ColumnName="Farmer_A_Sup" />
+                <ScalarProperty Name="Farmer_A_District" ColumnName="Farmer_A_District" />
+                <ScalarProperty Name="Farmer_A_Province" ColumnName="Farmer_A_Province" />
+                <ScalarProperty Name="Coop_Name" ColumnName="Coop_Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="history_sell">
+            <EntityTypeMapping TypeName="shawnathaidpuModel.history_sell">
+              <MappingFragment StoreEntitySet="history_sell">
+                <ScalarProperty Name="Sell_NumID" ColumnName="Sell_NumID" />
+                <ScalarProperty Name="Sell_Date" ColumnName="Sell_Date" />
+                <ScalarProperty Name="ProD_IDSell" ColumnName="ProD_IDSell" />
+                <ScalarProperty Name="AD_ID" ColumnName="AD_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="product_rice">
+            <EntityTypeMapping TypeName="shawnathaidpuModel.product_rice">
+              <MappingFragment StoreEntitySet="product_rice">
+                <ScalarProperty Name="ProD_IDSell" ColumnName="ProD_IDSell" />
+                <ScalarProperty Name="ProD_Topic" ColumnName="ProD_Topic" />
+                <ScalarProperty Name="ProD_Pic" ColumnName="ProD_Pic" />
+                <ScalarProperty Name="ProD_Moisture" ColumnName="ProD_Moisture" />
+                <ScalarProperty Name="ProD_Weight" ColumnName="ProD_Weight" />
+                <ScalarProperty Name="ProD_Price" ColumnName="ProD_Price" />
+                <ScalarProperty Name="ProD_CertiWeightRice" ColumnName="ProD_CertiWeightRice" />
+                <ScalarProperty Name="RType_Name" ColumnName="RType_Name" />
+                <ScalarProperty Name="Farmer_IDCard" ColumnName="Farmer_IDCard" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ricetype">
+            <EntityTypeMapping TypeName="shawnathaidpuModel.ricetype">
+              <MappingFragment StoreEntitySet="ricetype">
+                <ScalarProperty Name="RType_Name" ColumnName="RType_Name" />
+                <ScalarProperty Name="RType_Nape" ColumnName="RType_Nape" />
+                <ScalarProperty Name="RType_Napung" ColumnName="RType_Napung" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="user">
+            <EntityTypeMapping TypeName="shawnathaidpuModel.user">
+              <MappingFragment StoreEntitySet="user">
+                <ScalarProperty Name="U_IDCard" ColumnName="U_IDCard" />
+                <ScalarProperty Name="U_Password" ColumnName="U_Password" />
+                <ScalarProperty Name="U_Name" ColumnName="U_Name" />
+                <ScalarProperty Name="U_Lastname" ColumnName="U_Lastname" />
+                <ScalarProperty Name="U_Tel" ColumnName="U_Tel" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="history_buyeruser" TypeName="shawnathaidpuModel.history_buyeruser" StoreEntitySet="history_buyeruser">
+            <EndProperty Name="history_sell">
+              <ScalarProperty Name="Sell_NumID" ColumnName="Sell_NumID" />
+            </EndProperty>
+            <EndProperty Name="user">
+              <ScalarProperty Name="U_IDCard" ColumnName="U_IDCard" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

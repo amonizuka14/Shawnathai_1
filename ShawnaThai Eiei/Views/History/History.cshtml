@@ -1,0 +1,76 @@
+﻿@model ShawnaThai_Eiei.Models.product_rice
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <!DOCTYPE html>
+    <html lang="en">
+  <head>
+    <style type="text/css">
+        .form-group {
+            height: 50px
+        }
+
+        .masthead {
+            height: 980px
+        }
+    </style>
+  </head>
+    <body id="page-top">
+        <!-- Header -->
+        <header class="masthead">
+            <div class="intro-text">
+
+                <div class="intro-heading">เพิ่มประวัติ</div>
+                <center>
+
+                    <form id="contactForm" name="sentMessage" novalidate>
+
+                        <div class="form-group">
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    วันเดือนปีที่รับของ
+                                    <input class="form-control" id="Sell_Date" type="date" name="Sell_Date" pattern="[0-9]+" minlength="13" maxlength="13" placeholder="DD//MM//YYYY*" required="required">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+
+                                <div class="form-group">
+                                    โปรดใส่หมายเลขประกาศ
+                                    <input class="form-control" id="ProD_IDSell" type="text" name="ProD_IDSell" pattern="[0-9]+"  value="@Html.DisplayFor(Model=>Model.ProD_IDSell)">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+
+
+                                <div class="clearfix"></div>
+                                <div class="col-lg-12 text-center">
+                                    <div id="success"></div>
+                                    <button id="sendMessageButton" class="btn btn-xl" type="submit">เพิ่มประวัติ</button>
+                                    <font size="5" color="red">@ViewBag.Message</font>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </center>
+            </div>
+        </header>
+
+        <script src="~/Scripts/jquery-3.2.1.min.js"></script>
+        <script src="~/Scripts/bootstrap.min.js"></script>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="~/Bootstrap/vendor/jquery/jquery.min.js"></script>
+        <script src="~/Bootstrap/vendor/popper/popper.min.js"></script>
+        <script src="~/Bootstrap/vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/pdfobject.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="~/Bootstrap/vendor/jquery-easing/jquery.easing.min.js"></script>
+        <!-- Contact form JavaScript -->
+        <script src="~/Bootstrap/js/jqBootstrapValidation.js"></script>
+        <script src="~/Bootstrap/js/contact_me.js"></script>
+        <!-- Custom scripts for this template -->
+        <script src="~/Bootstrap/js/agency.min.js"></script>
+    </body>
+</html>
+}
+

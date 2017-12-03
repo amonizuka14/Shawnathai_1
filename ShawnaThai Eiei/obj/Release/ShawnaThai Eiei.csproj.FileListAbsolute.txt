@@ -1,0 +1,265 @@
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\ShawnaThai Eiei.dll.config
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\ShawnaThai Eiei.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\ShawnaThai Eiei.pdb
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\System.Web.Helpers.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\System.Web.Mvc.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\System.Web.Razor.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\System.Web.Webpages.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\System.Web.Webpages.Razor.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\System.Web.Razor.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\System.Web.Webpages.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\System.Web.Webpages.Razor.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\System.Web.Helpers.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\bin\System.Web.Mvc.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.csprojResolveAssemblyReference.cache
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.csproj.CoreCompileInputs.cache
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnaThai Eiei\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.pdb
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ShawnaThai Eiei.dll.config
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ShawnaThai Eiei.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ShawnaThai Eiei.pdb
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\EntityFramework.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\EntityFramework.SqlServer.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.Data.Edm.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.Data.OData.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.Data.Services.Client.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Newtonsoft.Json.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Spatial.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Web.Helpers.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Web.Mvc.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Web.Razor.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Web.Webpages.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Web.Webpages.Razor.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\EntityFramework.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\EntityFramework.SqlServer.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.Data.Edm.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.Data.OData.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.Data.Services.Client.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\Newtonsoft.Json.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Spatial.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Web.Razor.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Web.Webpages.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Web.Webpages.Razor.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Web.Helpers.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\System.Web.Mvc.xml
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\de\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\es\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\fr\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\it\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ja\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ko\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\ru\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.csprojResolveAssemblyReference.cache
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.csproj.CoreCompileInputs.cache
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.dll
+C:\Users\TatchapongSukgorn\source\repos\ShawnathaiDPU\shawnathaidpu\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.pdb
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ShawnaThai Eiei.dll.config
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ShawnaThai Eiei.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ShawnaThai Eiei.pdb
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\EntityFramework.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\EntityFramework.SqlServer.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Data.Edm.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Data.OData.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Data.Services.Client.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Newtonsoft.Json.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Spatial.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Web.Helpers.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Web.Mvc.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Web.Razor.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Web.Webpages.Deployment.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Web.Webpages.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Web.Webpages.Razor.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\EntityFramework.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\EntityFramework.SqlServer.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Data.Edm.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Data.OData.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Data.Services.Client.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\Newtonsoft.Json.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Spatial.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Web.Razor.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Web.Webpages.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Web.Webpages.Deployment.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Web.Webpages.Razor.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Web.Helpers.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\System.Web.Mvc.xml
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\de\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\es\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\fr\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\it\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ja\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ko\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\ru\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.csprojResolveAssemblyReference.cache
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.csproj.CoreCompileInputs.cache
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.dll
+C:\Users\TatchapongSukgorn\Desktop\New folder (2)\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.pdb
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ShawnaThai Eiei.dll.config
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ShawnaThai Eiei.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ShawnaThai Eiei.pdb
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\EntityFramework.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Data.Edm.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Data.OData.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Data.Services.Client.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Web.Infrastructure.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Configuration.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Storage.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\MySql.Data.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\MySql.Data.Entity.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\MySql.Data.Entity.EF6.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\MySql.Fabric.Plugin.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\MySql.Web.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Newtonsoft.Json.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Spatial.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Web.Helpers.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Web.Mvc.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Web.Razor.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Web.Webpages.Deployment.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Web.Webpages.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Web.Webpages.Razor.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\EntityFramework.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Data.Edm.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Data.OData.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.Data.Services.Client.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Configuration.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Storage.pdb
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Microsoft.WindowsAzure.Storage.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\MySql.Data.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\MySql.Data.Entity.EF6.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\MySql.Web.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\Newtonsoft.Json.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Spatial.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Web.Razor.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Web.Webpages.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Web.Webpages.Deployment.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Web.Webpages.Razor.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Web.Helpers.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\System.Web.Mvc.xml
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\de\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\es\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\it\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\de\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\es\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\fr\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\it\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ja\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ko\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ru\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\de\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\es\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\fr\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\it\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ja\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ko\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ru\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\de\System.Spatial.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\es\System.Spatial.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\fr\System.Spatial.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\it\System.Spatial.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ja\System.Spatial.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ko\System.Spatial.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\ru\System.Spatial.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\zh-Hans\System.Spatial.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\bin\zh-Hant\System.Spatial.resources.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.csprojResolveAssemblyReference.cache
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.csproj.CoreCompileInputs.cache
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.dll
+D:\New folder (2)\ShawnaThai Complete\New folder (2)\ShawnaThai Eiei\obj\Release\ShawnaThai Eiei.pdb

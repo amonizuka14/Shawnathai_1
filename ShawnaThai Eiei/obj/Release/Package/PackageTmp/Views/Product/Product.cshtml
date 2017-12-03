@@ -1,0 +1,104 @@
+﻿
+@model ShawnaThai_Eiei.Models.product_rice
+@{
+    ViewBag.Title = "Product";
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="google-signin-client_id" content="868649675502-qq3t7chvhde2tpbt16o0v75itcgbdl7b.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>รายการขายข้าว - ชาวนาไทย</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/ShawnaThai-Template.css" rel="stylesheet">
+
+</head>
+
+
+<body id="page-top">
+    <!-- Header -->
+    <header class="masthead">
+        <div class="container">
+            <br><br><br><br><br><br><br><br><br>
+            <center>
+
+                <div class="shop-homepage">
+                    <br><br>
+                    <h1 class="my-4">ร้านค้าข้าวเปลือก</h1>
+
+                    <div class="col-lg-9">
+
+
+
+                        <div class="group">
+
+                            <img class="card-img-top img-fluid" src="@Html.DisplayFor(model=>model.ProD_Pic)" width="50" height="100" alt=""> <br /> <br />
+                            <img class="card-img-top img-fluid" src="@Html.DisplayFor(model=>model.ProD_CertiWeightRice)" width="50" height="100" alt="">
+                            <hr color=black width=80%>
+                            <caption align="top"> <font color="#ffffff"><font size="7"> ข้อมูลสินค้า  </font></caption>
+                            <table border="4"  border color="red" width="10" height="20">
+                                <font color="">
+                                <div class="col-md-4">
+                                    หัวข้อ
+                                    <input id="ProD_Topic" name="ProD_Topic" type="text"  placeholder="หมายเลขประกาศ." value="@Html.DisplayFor(model=>model.ProD_Topic)" class="form-control input-md" disabled>
+                                </div>
+                                น้ำหนัก
+                                <div class="col-md-4">
+                                    <input id="ProD_Weight" name="ProD_Weight" type="text" placeholder="น้ำหนัก" value="@Html.DisplayFor(model=>model.ProD_Weight)" class="form-control input-md" disabled>
+
+                                </div>
+                                ความชื้น
+                                <div class="col-md-4">
+                                    <input id="ProD_Moisture" name="ProD_Moisture" type="text" placeholder="ความชื้น" value="@Html.DisplayFor(MODEL=>MODEL.ProD_Moisture)" class="form-control input-md" disabled>
+
+                                </div>
+                                ราคา
+                                <div class="col-md-4">
+                                    <input id="ProD_Price" name="ProD_Price" type="text" placeholder="ราคา" value="@Html.DisplayFor(MODEL=>MODEL.ProD_Price)" class="form-control input-md" disabled>
+
+                                </div>
+
+                                หมายเลยประกาศ:
+                                <center><input id="ProD_IDSell" name="ProD_IDSell" type="text" value="@Html.DisplayFor(Model=>Model.ProD_IDSell)" size="10" style="background: #C0F9BD" disabled /></center>
+                                <br />
+                            </table>
+                            @if (HttpContext.Current.Session["U_IDCard"] != null)
+                            {
+                            <div>
+                                <input id="Button1" type="button" value="ซื้อสินค้า" class="btn btn-danger btn-lg" onclick="location.href='@Url.Action("History", "History",new { id=Model.ProD_IDSell})';"></div>
+                            }
+                        </div>
+
+
+                        <div class="row">
+
+
+                        </div>
+                    </div>
+                </div>
+            </center>
+    </header>
+
+</body>
+
+
+</html>

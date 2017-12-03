@@ -1,0 +1,81 @@
+﻿@model List<ShawnaThai_Eiei.Models.ricetype>
+
+    <!DOCTYPE html>
+    <html lang="en">
+<head>
+<style type="text/css">
+    .masthead {
+        height: 1180px
+    }
+</style>
+</head>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <body id="page-top">
+        <!-- Header -->
+        <header class="masthead">
+            <div class="intro-text">
+
+                <div class="intro-heading">ค้นหาแล้วเจอเลย</div>
+                <center>
+
+                    <form id="contactForm" name="sentMessage" novalidate>
+
+                        <div class="form-group">
+
+                            <div class="col-md-6">
+                                
+                                สายพันธุ์ :&nbsp;
+                                <select class="form-control custom-select" input id="Rtype" name="Rtype" style="width:200px;">
+                                    @foreach (var item in Model)
+                                    {
+                                        <option value="@item.RType_Name">@item.RType_Name</option>
+                                    }
+                                </select>
+                                &nbsp;
+                                น้ำหนัก:
+                                    <input class="form-control custom-control" id="WeightMin" name="WeightMin" type="text"  pattern="[0-9]+" minlength="1" maxlength="5" placeholder="น้ำหนักต่ำสุด*" style="width:200px;" required="required" );">
+                                ถึง&nbsp;&nbsp;
+                                    <input class="form-control custom-control" id="WeightMax" name="WeightMax" type="text" pattern="[0-9]+" minlength="1" maxlength="5" placeholder="น้ำหนักสูงสุด" style="width:200px;" required="required" );">
+                                     ตัน / เกวียน
+                                    <br><br>
+                                ราคา : 
+                                    <input class="form-control custom-control" id="PriceMin" name="Pricemin" type="text" pattern="[0-9]+" minlength="1" maxlength="9" placeholder="ราคาต่ำสุด*" style="width:250px;" required="required");">
+                                ถึง &nbsp;
+                                    <input class="form-control custom-control" id="PriceMax" name="PriceMax" type="text" pattern="[0-9]+" minlength="1" maxlength="9" placeholder="ราคาสูงสุด" style="width:250px;" required="required");">
+
+                                ค่าความชื้น :
+                                <select class="form-control custom-select" input id="MoistureMin" name="MoistureMin" style="width:100px;">
+                                    @for (var i = 1; i <= 100; i++)
+                                    {
+                                        <option value="@i">@i</option>
+                                    }
+                                </select>
+                                 ถึง
+                                <select class="form-control custom-select" input id="MoistureMax" name="MoistureMax" style="width:100px;">
+                                    @for (var i = 1; i <= 100; i++)
+                                    {
+                                        <option value="@i">@i</option>
+                                    }
+                                </select>
+                                <br><br>
+                                <div class="col-lg-12 text-center">
+                                    <div id="success"></div>
+                                    
+                                    <button id="sendMessageButton" class="btn btn-xl" type="submit">ค้นหา</button>
+                                    <br><br>
+                                    
+                                    <font size="10" color="red">@ViewBag.Message</font>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </center>
+            </div>
+        </header>
+    </body>
+}
+</html>
+
+
